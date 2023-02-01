@@ -6,7 +6,7 @@
 /*   By: smuradya <smuradya@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/18 17:00:54 by smuradya          #+#    #+#             */
-/*   Updated: 2023/02/01 19:58:26 by smuradya         ###   ########.fr       */
+/*   Updated: 2023/02/01 20:03:30 by smuradya         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -61,7 +61,7 @@ void	my_env(t_env **env, char **arg)
 			ft_lstadd_back(env, node);
 			i++;
 		}
-		free(env);
+		// free(env);
 		tmp = NULL;
 	}
 }
